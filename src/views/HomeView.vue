@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import BlogHeader from "./components/BlogHeader.vue"
-import BlogFecha from "./components/BlogFecha.vue"
-import BlogEtiqueta from "./components/BlogEtiqueta.vue"
-import BlogContenido from "./components/BlogContenido.vue"
-import BlogFooter from "./components/BlogFooter.vue"
+import BlogHeader from "../components/BlogHeader.vue"
+import BlogFecha from "../components/BlogFecha.vue"
+import BlogEtiqueta from "../components/BlogEtiqueta.vue"
+import BlogContenido from "../components/BlogContenido.vue"
+import BlogFooter from "../components/BlogFooter.vue"
 export default {
   name: 'HomeView',
   components: {
