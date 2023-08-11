@@ -1,12 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <BlogHeader/>
 </template>
 
 <script>
+import BlogHeader from "./components/BlogHeader.vue"
 
 export default {
   name: 'App',
   components: {
+      BlogHeader,
   }
 }
 </script>
