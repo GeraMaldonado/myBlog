@@ -1,15 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <BlogHeader/>
+  <BlogFecha/>
 </template>
 
 <script>
 import BlogHeader from "./components/BlogHeader.vue"
-
+import BlogFecha from "./components/BlogFecha.vue"
 export default {
   name: 'App',
   components: {
       BlogHeader,
+      BlogFecha
   }
 }
 </script>
