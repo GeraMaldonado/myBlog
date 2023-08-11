@@ -3,18 +3,21 @@
   <BlogHeader/>
   <BlogFecha/>
   <BlogEtiqueta/>
+  <BlogContenido/>
 </template>
 
 <script>
 import BlogHeader from "./components/BlogHeader.vue"
 import BlogFecha from "./components/BlogFecha.vue"
 import BlogEtiqueta from "./components/BlogEtiqueta.vue"
+import BlogContenido from "./components/BlogContenido.vue"
 export default {
   name: 'App',
   components: {
       BlogHeader,
       BlogFecha,
       BlogEtiqueta,
+      BlogContenido,
   }
 }
 </script>
