@@ -1,29 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <BlogHeader/>
-  <BlogFecha/>
-  <BlogEtiqueta/>
-  <BlogContenido/>
-  <BlogFooter/>
+  <nav>
+    <router-link to="/">Inicio</router-link> 
+  </nav>
+  <router-view/>
+
 </template>
 
-<script>
-import BlogHeader from "./components/BlogHeader.vue"
-import BlogFecha from "./components/BlogFecha.vue"
-import BlogEtiqueta from "./components/BlogEtiqueta.vue"
-import BlogContenido from "./components/BlogContenido.vue"
-import BlogFooter from "./components/BlogFooter.vue"
-export default {
-  name: 'App',
-  components: {
-      BlogHeader,
-      BlogFecha,
-      BlogEtiqueta,
-      BlogContenido,
-      BlogFooter,
-  }
-}
-</script>
 
 <style>
 #app {
