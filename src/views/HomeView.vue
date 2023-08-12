@@ -1,10 +1,20 @@
 <template>
-  <img alt="Vue logo" src="../assets/logo.png">
-  <BlogHeader/>
-  <BlogFecha/>
-  <BlogEtiqueta/>
-  <BlogContenido/>
-  <BlogFooter/>
+  <header>
+      <img alt="Vue logo" src="../assets/logo.png">
+      <BlogHeader/>
+  </header>
+  <main>
+      <aside>
+          <BlogFecha/>
+          <BlogEtiqueta/>
+      </aside>
+      <section>
+          <BlogContenido/>
+      </section>
+  </main>
+  <footer>
+      <BlogFooter/>
+  </footer>
 </template>
 
 <script>

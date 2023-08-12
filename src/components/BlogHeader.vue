@@ -6,3 +6,8 @@
         name: "BlogHeader",
     }
 </script>
+<style>
+.BlogHeader {
+    font-size: 100px;
+}
+</style>
