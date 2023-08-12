@@ -35,5 +35,5 @@ export default {
 }
 </script>
 
-<style>
+<style src="../assets/styles/HomeView.css">
 </style>

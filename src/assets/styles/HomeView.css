@@ -1,0 +1,29 @@
+header, main, footer{
+        border: 2px solid black;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: rgb(254, 245, 228);
+    }
+ body {
+  margin: 0; /* Asegura que no haya márgenes en el body */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+    h1,h2,h3,h4{
+        margin: 0 0 0.35em;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3, h4{
+        font-size: 20px;
+    }
+    p{
+        margin: 0 0 1.15em;
+    }
