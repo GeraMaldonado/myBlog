@@ -1,17 +1,19 @@
 <template>
+    <div class="container">
   <header>
       <img alt="Vue logo" src="../assets/logo.png">
       <BlogHeader/>
   </header>
   <main>
-      <aside>
-          <BlogFecha/>
-          <BlogEtiqueta/>
-      </aside>
       <section>
           <BlogContenido/>
       </section>
+      <aside>
+          <div class="BlogFecha"><BlogFecha/></div>
+          <div class="BlogEtiqueta"><BlogEtiqueta/></div>
+      </aside>
   </main>
+    </div>
   <footer>
       <BlogFooter/>
   </footer>
