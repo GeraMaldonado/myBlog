@@ -15,7 +15,7 @@ header, main, section, aside, footer, .BlogFecha, .BlogEtiqueta {
     }
     section{
         width:75%;
-        margin: 5px
+        margin: 5px;
     }
     aside{
         width: 25%;
@@ -26,7 +26,11 @@ header, main, section, aside, footer, .BlogFecha, .BlogEtiqueta {
         margin: 5px;
         min-height: 300px;
     }
-
+    footer{
+        background-color: green;
+        width: 100%;
+        height: 200px;
+    }
 
 
     /*
