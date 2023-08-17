@@ -3,7 +3,6 @@
   <main>
       <section>
           <BlogContenido/>
-          <PrimerPost/>
       </section>
       <aside>
           <div class="BlogFecha"><BlogFecha/></div>
@@ -17,14 +16,12 @@
 import BlogFecha from "../components/BlogFecha.vue"
 import BlogEtiqueta from "../components/BlogEtiqueta.vue"
 import BlogContenido from "../components/BlogContenido.vue"
-import PrimerPost from "../components/post/PrimerPost.vue"
 export default {
   name: 'HomeView',
   components: {
       BlogFecha,
       BlogEtiqueta,
       BlogContenido,
-      PrimerPost,
   }
 }
 </script>
