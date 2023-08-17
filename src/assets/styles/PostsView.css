@@ -1,0 +1,23 @@
+header, main, section, aside, footer, .BlogFecha, .BlogEtiqueta {
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    main{
+        max-width: 900px;
+        min-width: 500px;
+        margin: 0 auto 10px auto;
+        display: flex;
+    }
+    section{
+        width:75%;
+        margin: 5px;
+    }
+    aside{
+        width: 25%;
+        margin: 5px;
+
+    }
+    .BlogFecha , .BlogEtiqueta {
+        margin: 5px;
+        min-height: 300px;
+    }
