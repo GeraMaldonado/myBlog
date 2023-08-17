@@ -3,7 +3,8 @@
   <main>
       <section>
           <BlogContenido/>
-          <PrimerPost/>
+          <router-link :to="{ name: 'primerpost'}">Primer Post (Prueba) </router-link>
+          <span>15/08</span>
       </section>
       <aside>
           <div class="BlogFecha"><BlogFecha/></div>
@@ -17,14 +18,12 @@
 import BlogFecha from "../components/BlogFecha.vue"
 import BlogEtiqueta from "../components/BlogEtiqueta.vue"
 import BlogContenido from "../components/BlogContenido.vue"
-import PrimerPost from "../components/post/PrimerPost.vue"
 export default {
   name: 'PostsView',
   components: {
       BlogFecha,
       BlogEtiqueta,
       BlogContenido,
-      PrimerPost,
   }
 }
 </script>
