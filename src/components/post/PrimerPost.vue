@@ -1,8 +1,10 @@
 <template>
-    <h2>Primer Post (Prueba)</h2>
-    <p>{{fechaCreacion()}}</p>
-    <p>Hola mundo</p>
-    <p>Este es mi primer post, el que tambien tomare como prueba para ver el funcionamiento de mi blog</p>
+    <div class="post">
+        <h2>Primer Post (Prueba)</h2>
+        <h3>{{fechaCreacion()}}</h3>
+        <p>Hola mundo</p>
+        <p>Este es mi primer post, el que tambien tomare como prueba para ver el funcionamiento de mi blog</p>
+    </div>
 </template>
 
 <script>
@@ -21,3 +23,4 @@ export default {
   },
 };
 </script>
+<style src="../../assets/styles/post.css"></style>
