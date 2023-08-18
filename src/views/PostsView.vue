@@ -3,8 +3,8 @@
   <main>
       <section>
           <BlogContenido/>
-          <router-link :to="{ name: 'primerpost'}">Primer Post (Prueba) </router-link>
-          <span>15/08</span>
+          <router-link :to="{name: 'segundopost'}">Segundo Post (Explicacion) </router-link><span>16/08</span>
+          <router-link :to="{ name: 'primerpost'}">Primer Post (Prueba) </router-link><span>15/08</span>
       </section>
       <aside>
           <div class="BlogFecha"><BlogFecha/></div>
