@@ -1,7 +1,7 @@
-header, main, section, aside, footer, .BlogFecha, .BlogEtiqueta {
+/*header, main, section, aside, footer, .BlogFecha, .BlogEtiqueta {
         border: 2px solid black;
         border-radius: 10px;
-    }
+    }*/
     main{
         max-width: 900px;
         min-width: 500px;
