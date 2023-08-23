@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import PostsView from '../views/PostsView.vue'
 import PrimerPost from '../components/post/PrimerPost.vue'
 import SegundoPost from '../components/post/SegundoPost.vue'
+import MejorandoEstilo from '../components/post/MejorandoEstilo.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/posts/segundopost',
     name: 'segundopost',
     component: SegundoPost
+  },
+  {
+    path: '/posts/mejorandoestilo',
+    name: 'mejorandoestilo',
+    component: MejorandoEstilo
   },
 //  {
 //    path: '/about',
