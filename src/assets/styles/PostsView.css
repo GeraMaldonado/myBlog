@@ -1,8 +1,4 @@
-/*header, main, section, aside, footer, .BlogFecha, .BlogEtiqueta {
-        border: 2px solid black;
-        border-radius: 10px;
-    }*/
-    main{
+   main{
         max-width: 900px;
         min-width: 500px;
         margin: 0 auto 10px auto;
