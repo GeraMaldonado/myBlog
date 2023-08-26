@@ -4,8 +4,8 @@
       <BlogHeader/>
   </header>  
   <nav>
-    <router-link to="/">Inicio</router-link>
-    <router-link to="/posts">Posts</router-link>
+    <router-link class="navegacion" to="/">Inicio</router-link>
+    <router-link class="navegacion" to="/posts">Posts</router-link>
   </nav>
   <router-view/>
   <footer>
