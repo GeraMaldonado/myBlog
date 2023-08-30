@@ -4,6 +4,7 @@
       <section>
           <BlogContenido/>
           <div class="containerposts">
+              <div class="postlist"><router-link :to="{name: 'comparandoestilos'}">Comparando estilos </router-link><span>29/08</span></div>
               <div class="postlist"><router-link :to="{name: 'mejorandoestilo'}">Mejorando el estilo </router-link><span>21/08</span></div>
               <div class="postlist"><router-link :to="{name: 'segundopost'}">Segundo Post (Explicacion) </router-link><span>16/08</span></div>
               <div class="postlist"><router-link :to="{ name: 'primerpost'}">Primer Post (Prueba) </router-link><span>15/08</span></div>
