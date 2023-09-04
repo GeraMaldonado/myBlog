@@ -5,6 +5,7 @@ import PrimerPost from '../components/post/PrimerPost.vue'
 import SegundoPost from '../components/post/SegundoPost.vue'
 import MejorandoEstilo from '../components/post/MejorandoEstilo.vue'
 import ComparandoEstilos from '../components/post/ComparandoEstilos.vue'
+import MetasBlog from '../components/post/MetasBlog.vue'
 
 const routes = [
   {
@@ -36,7 +37,12 @@ const routes = [
     path: '/posts/comparandoestilos',
     name: 'comparandoestilos',
     component: ComparandoEstilos
-  }
+  },
+  {
+    path: '/post/metasblog',
+    name: 'metasblog',
+    component: MetasBlog
+  },
 //  {
 //    path: '/about',
 //    name: 'about',
