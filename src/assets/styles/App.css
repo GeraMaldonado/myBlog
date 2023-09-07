@@ -15,6 +15,8 @@ body{
         margin: 0 auto 10px auto;
     }
     footer{
+        display: flex;
+        align-items: center;
         background-color: black;
         width: 100%;
         height: 200px;
@@ -32,11 +34,14 @@ body{
     h3, h4, nav, .containerposts{
         font-size: 20px;
     }
+    h6{
+        font-size: 13px; 
+    }
     p{
         margin: 0 0 1.15em;
         font-size: 20px;
     }
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 20px 40px; 
 }
 nav{
