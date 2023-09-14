@@ -1,7 +1,7 @@
 <template>
     <div class="post">
         <h2>Comparando Estilos</h2>
-        <h3>{{ fechaCreacion() }}</h3>
+        <h3>{{ generarFecha(29,8,2023) }}</h3>
         <p>Ya debía este Post</p>
         <p>Revisando una pequeña comparativa sobre como estaba maquetado el blog, al principio marque los bordes para saber con que estaba trabajando, el único que tenia color, era el Footer que tenia un color verde, el cual me servia para identificar sus limites más rápido, pues este tenia que abarcar la mayor parte de la pantalla, el titulo y el contenido, solo abarcaría un pequeño espacio a lo largo, y posicionado en el centro.</p>
         <img alt="Ejemplo1" src="../../assets/posts/comparacion/ejemplo1.png">
@@ -18,19 +18,16 @@
 </template>
 
 <script>
+import Fecha from "../Fecha.js"
 export default {
   data() {
     return {};
   },
-  methods: {
-    fechaCreacion() {
-        const fecha = new Date(2023, 7, 29);
-        const dia = fecha.getDate();
-        const mes = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-        const anio = fecha.getFullYear();
-        return `${dia} de ${mes[fecha.getMonth()]} del ${anio}`;
-    },
-  },
-};
+  methods:{
+    generarFecha(d,m,a){
+        return(Fecha.FechaCreacion(d,m,a))
+    }
+  }
+}
 </script>
 <style src="../../assets/styles/post.css"></style>
