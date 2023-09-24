@@ -4,6 +4,7 @@
       <section>
           <BlogContenido/>
           <div class="containerposts">
+             <div class="postlist"><router-link :to="{name: 'desplegado'}">Blog Desplegado</router-link><span>24/09</span></div>
               <div class="postlist"><router-link :to="{name: 'problemasbuild'}">Problemas con el despliegue</router-link><span>23/09</span></div>
               <div class="postlist"><router-link :to="{name: 'metasblog'}">Metas Blog</router-link><span>02/09</span></div>
               <div class="postlist"><router-link :to="{name: 'comparandoestilos'}">Comparando estilos </router-link><span>29/08</span></div>

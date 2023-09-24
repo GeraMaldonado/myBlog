@@ -4,6 +4,7 @@ import MejorandoEstilo from '../components/post/MejorandoEstilo.vue'
 import ComparandoEstilos from '../components/post/ComparandoEstilos.vue'
 import MetasBlog from '../components/post/MetasBlog.vue'
 import ProblemasBuild from '../components/post/ProblemasBuild.vue'
+import BlogDesplegado from '../components/post/BlogDesplegado.vue'
 
 const postsRoutes = [
   {
@@ -35,7 +36,12 @@ const postsRoutes = [
       path: '/post/problemasbuild',
       name: 'problemasbuild',
       component: ProblemasBuild
-  },    
+  },
+  {
+      path: '/post/desplegado',
+      name: 'desplegado',
+      component: BlogDesplegado
+  },
 ]
 
 export default postsRoutes
