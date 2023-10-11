@@ -5,6 +5,7 @@ import ComparandoEstilos from '../components/post/ComparandoEstilos.vue'
 import MetasBlog from '../components/post/MetasBlog.vue'
 import ProblemasBuild from '../components/post/ProblemasBuild.vue'
 import BlogDesplegado from '../components/post/BlogDesplegado.vue'
+import HoraVoz from '../components/post/HoraVoz.vue'
 
 const postsRoutes = [
   {
@@ -41,6 +42,11 @@ const postsRoutes = [
       path: '/post/desplegado',
       name: 'desplegado',
       component: BlogDesplegado
+  },
+  {
+      path: '/post/horavoz',
+      name: 'horavoz',
+      component: HoraVoz
   },
 ]
 
